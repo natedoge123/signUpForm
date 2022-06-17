@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Sign-Up Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="javaScript.js" defer></script>
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div id="sidebar">
+        <img src='picture.jpg'>
+      </div>
+      <div id="form">
+        <h1>Registration</h1>
+        <h3>Welcome to our registration page!</h3>
+        <fieldset>
+          <legend>User Registration</legend>
+  
+          <div id="name">
+            <label for="firstName"> FIRST NAME:</label>
+            <input type="text" id="firstName" name="firstName">
+    
+            <label for="lastName"> LAST NAME:</label>
+            <input type="text" id="lastName" name="lastName">
+          </div>
+  
+    
+          <div id="contact">
+            <label for="userEmail"> EMAIL:</label>
+            <input type="email" id="userEmail" name="email" placeholder="your_email@website.com">
+    
+            <label for="phoneNumber"> PHONE NUMBER:</label>
+            <input type="text" id="phoneNumber" placeholder="0123456789" name="phoneNumber">
+    
+            <label for="phoneType"></label>
+            <select>
+              <option value="Home">HOME</option>
+              <option value="mobile">MOBILE</option>
+              <option value="work">WORK</option>
+              <option value="other">OTHER</option>
+            </select>
+          </div>
+    
+          <div id="password">
+            <label for="userPassword">PASSWORD: </label>
+            <input type="password" id="userPassword" name="password">
+    
+            <label for="userConfirmPassword">CONFIRM PASSWORD: </label>
+            <input type="password" id="userConfirmPassword" name="confirmPassword">
+          </div>
+  
+          <button type="submit">Create Account</button>
+     
+        </fieldset>
+        <p>Already a member? <a href='url'>LOG IN</a><p>
+      </div>
+    </div
+
+  </body>
+
+</html>
